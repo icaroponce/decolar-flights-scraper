@@ -1,12 +1,12 @@
 {
   "name": "decolar-flights-scraper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Ícaro Ponce",
   "license": "ISC",
   "dependencies": {
     "debug": "^2.6.6",
