@@ -159,7 +159,9 @@ Use the code `data.AIRPORT[0].code` or `data.CITY[0].code` in the [search](#sear
 
 ## More Info
 
-This module hits directly the decolar.com/despegar.com APIs, thus be careful of the requests amount you send at once, because even having set properly headers to avoid being detected as a crawler, a careless and exaggerated usage of this module can imply in ** blocked ip ** for a short period of time. We suggest you to throttle the requests or even distribute them among different servers if you have enough hardware resources.
+* This module hits directly the decolar.com/despegar.com APIs, thus be careful of the requests amount you send at once, because even having set properly headers to avoid being detected as a crawler, with a careless and exaggerated usage of this module can face a ** blocked ip ** problem for a short period of time. We suggest you to throttle the requests or even distribute them among different servers if you have enough hardware resources.
+
+* As the decolar.com/despegar.com API takes some seconds to respond ( you can note this behavior in their websites ), this module will take this seconds to retrieve the flights list as well. 
 
 ## Contributing
 
