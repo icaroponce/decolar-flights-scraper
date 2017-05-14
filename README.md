@@ -18,15 +18,15 @@ Available methods:
 
 Retrieves a list of flights.
 
-** Required params ** :
+**Required params** :
 
 * `type`: Indicates if the flight is one-way or roundtrip. Possible values: `roundtrip` and `one-way`.
 * `departureLocation`: The three letter city or airport code. You can use the [getAirportCode](#getAirportCode) to find out.
 * `arriveLocation`:  The same three letter city or airpot code, as used in de `departureLocation` param.
-* departureDate: The date you plan to leave the departure location. Should be in format: `YYYY-MM-DD`.
-* arriveDate: The date you plan to arrive in the departure location. Should be in format: `YYYY-MM-DD`. (This params is required unless the `type` is `one-way`).
+* `departureDate`: The date you plan to leave the departure location. Should be in format: `YYYY-MM-DD`.
+* `arriveDate`: The date you plan to arrive in the departure location. Should be in format: `YYYY-MM-DD`. (This params is required unless the `type` is `one-way`).
 
-** Optional Params: **
+**Optional Params**:
 
 * `fullDetail`: (defaults to `false`). By default, only the most crucial fields will be returned. Pass it as `true` to get the complete documents. It can be a bit verbose. 
 
