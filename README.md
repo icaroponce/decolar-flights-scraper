@@ -28,7 +28,7 @@ Retrieves a list of flights.
 
 **Optional Params**:
 
-* `adultNumber`: (deafuls to `1`). Sets the number of adults. Must be an integer.
+* `adultNumber`: (defaults to `1`). Sets the number of adults. Must be an integer.
 * `fullDetail`: (defaults to `false`). By default, only the most crucial fields will be returned. Pass it as `true` to get the complete documents. It can be a bit verbose. 
 
 Example:
@@ -54,20 +54,18 @@ Results:
 ```
 [ { totalPrice: 2735,
     currencyPriceCode: 'BRL',
-    seatsRemaining: 4,
-    airlines: [ 'CM' ] },
+    airlines: [ 'Copa Airlines' ] },
   { totalPrice: 2735,
     currencyPriceCode: 'BRL',
-    seatsRemaining: 2,
-    airlines: [ 'CM' ] },
+    airlines: [ 'Copa Airlines' ] },
   { totalPrice: 2752,
     currencyPriceCode: 'BRL',
-    seatsRemaining: undefined,
-    airlines: [ 'AV' ] },
+    airlines: [ 'Avianca' ] },
   { totalPrice: 2920,
     currencyPriceCode: 'BRL',
-    seatsRemaining: 1,
-    airlines: [ 'AV' ] } ]
+    airlines: [ 'Avianca' ] },
+    (...)
+]
 ```
 
 ### getAirportCode ###
