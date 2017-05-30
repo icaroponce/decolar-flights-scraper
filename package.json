@@ -1,11 +1,25 @@
 {
   "name": "decolar-flights-scraper",
-  "version": "0.0.3",
-  "description": "",
+  "version": "0.0.4",
+  "description": "scrape flight data from decolar.com and despegar.com",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/icaroponce/decolar-flights-scraper"
+  },
+  "keywords": {
+    "decolar.com",
+    "despegar.com",
+    "decolar",
+    "flights"
+  },
+  "bugs": {
+    "url": "https://github.com/icaroponce/decolar-flights-scraper/issues"
+  },
+  "homepage": "https://github.com/icaroponce/decolar-flights-scraper",
   "author": "Ícaro Ponce",
   "license": "ISC",
   "dependencies": {
