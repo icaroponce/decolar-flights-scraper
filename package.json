@@ -1,6 +1,6 @@
 {
   "name": "decolar-flights-scraper",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "scrape flight data from decolar.com and despegar.com",
   "main": "index.js",
   "scripts": {
