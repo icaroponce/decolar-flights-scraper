@@ -54,20 +54,18 @@ Results:
 ```
 [ { totalPrice: 2735,
     currencyPriceCode: 'BRL',
-    seatsRemaining: 4,
-    airlines: [ 'CM' ] },
+    airlines: [ 'Copa Airlines' ] },
   { totalPrice: 2735,
     currencyPriceCode: 'BRL',
-    seatsRemaining: 2,
-    airlines: [ 'CM' ] },
+    airlines: [ 'Copa Airlines' ] },
   { totalPrice: 2752,
     currencyPriceCode: 'BRL',
-    seatsRemaining: undefined,
-    airlines: [ 'AV' ] },
+    airlines: [ 'Avianca' ] },
   { totalPrice: 2920,
     currencyPriceCode: 'BRL',
-    seatsRemaining: 1,
-    airlines: [ 'AV' ] } ]
+    airlines: [ 'Avianca' ] },
+    (...)
+]
 ```
 
 ### getAirportCode ###
