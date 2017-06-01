@@ -28,7 +28,7 @@ Retrieves a list of flights.
 
 **Optional Params**:
 
-* `adultNumber`: (deafuls to `1`). Sets the number of adults. Must be an integer.
+* `adultNumber`: (defaults to `1`). Sets the number of adults. Must be an integer.
 * `fullDetail`: (defaults to `false`). By default, only the most crucial fields will be returned. Pass it as `true` to get the complete documents. It can be a bit verbose. 
 
 Example:
